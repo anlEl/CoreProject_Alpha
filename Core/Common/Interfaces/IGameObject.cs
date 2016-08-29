@@ -10,7 +10,8 @@ namespace Core
     {
         long                ID          { get; }
         EnumX               Type        { get; }
-        IGameObjectBehavior Behavior    { get; }
-
+        //IGameObjectBehavior Behavior    { get; }
+		string				ColorCode	{ get; }
+		string				ImagePath	{ get; }
     }
 }

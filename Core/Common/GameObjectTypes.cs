@@ -15,14 +15,14 @@ namespace Core
         }
         public class UserTypes
         {
-            public static readonly EnumX Player         = 0;
-            public static readonly EnumX AI             = 1;
-            public static readonly EnumX Spectator      = 2;
+            public static readonly EnumX Player         = 2;
+            public static readonly EnumX AI             = 3;
+            public static readonly EnumX Spectator      = 4;
         }
         public class ObjectTypes
         {
-            public static readonly EnumX Static         = 3;
-            public static readonly EnumX Kinetic        = 4;
+            public static readonly EnumX Static         = 5;
+            public static readonly EnumX Kinetic        = 6;
         }
     }
 }

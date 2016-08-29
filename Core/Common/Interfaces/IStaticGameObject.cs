@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace Core
 {
-    internal interface IGameItem
+    interface IStaticGameObject : IGameObject
     {
+
     }
 }

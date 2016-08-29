@@ -40,10 +40,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Common\Interfaces\IStaticGameObject.cs" />
     <Compile Include="Core.cs" />
     <Compile Include="Common\EnumX.cs" />
     <Compile Include="Common\GameObjectTypes.cs" />
-    <Compile Include="Common\Interfaces\IGameItem.cs" />
     <Compile Include="Common\Interfaces\IGameObject.cs" />
     <Compile Include="Common\Interfaces\IGameObjectBehavior.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
